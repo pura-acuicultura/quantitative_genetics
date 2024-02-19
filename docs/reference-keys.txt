@@ -1,0 +1,8 @@
+genetic-constitution-of-a-population
+linkage-disequilibrium
+introduction
+getting-started
+development-of-the-populations
+un-linked-loci
+closely-linked-loci
+conclusion
