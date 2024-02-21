@@ -6,3 +6,9 @@ development-of-the-populations
 un-linked-loci
 closely-linked-loci
 conclusion
+random-drift-in-the-idealized-population
+introduction-1
+flexible-parameters
+making-a-for-loop
+plotting-the-results
+conclusion-1
