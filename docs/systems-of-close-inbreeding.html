@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 4 Systems of close inbreeding | A laboratory manual for quantitative genetics</title>
+  <meta name="description" content="Chapter 4 Systems of close inbreeding | A laboratory manual for quantitative genetics" />
+  <meta name="generator" content="bookdown 0.37 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 4 Systems of close inbreeding | A laboratory manual for quantitative genetics" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 4 Systems of close inbreeding | A laboratory manual for quantitative genetics" />
+  
+  
+  
+
+<meta name="author" content="James Webb, PhD" />
+
+
+<meta name="date" content="2024-03-04" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="random-drift-in-the-idealized-population.html"/>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<link href="libs/tabwid-1.1.3/tabwid.css" rel="stylesheet" />
+<script src="libs/tabwid-1.1.3/tabwid.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Quantitative genetics</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Genetic constitution of a population</a></li>
+<li class="chapter" data-level="2" data-path="linkage-disequilibrium.html"><a href="linkage-disequilibrium.html"><i class="fa fa-check"></i><b>2</b> Linkage disequilibrium</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="linkage-disequilibrium.html"><a href="linkage-disequilibrium.html#introduction"><i class="fa fa-check"></i><b>2.1</b> Introduction</a></li>
+<li class="chapter" data-level="2.2" data-path="linkage-disequilibrium.html"><a href="linkage-disequilibrium.html#getting-started"><i class="fa fa-check"></i><b>2.2</b> Getting started</a></li>
+<li class="chapter" data-level="2.3" data-path="linkage-disequilibrium.html"><a href="linkage-disequilibrium.html#development-of-the-populations"><i class="fa fa-check"></i><b>2.3</b> Development of the populations</a></li>
+<li class="chapter" data-level="2.4" data-path="linkage-disequilibrium.html"><a href="linkage-disequilibrium.html#un-linked-loci"><i class="fa fa-check"></i><b>2.4</b> Un-linked loci</a></li>
+<li class="chapter" data-level="2.5" data-path="linkage-disequilibrium.html"><a href="linkage-disequilibrium.html#closely-linked-loci"><i class="fa fa-check"></i><b>2.5</b> Closely linked loci</a></li>
+<li class="chapter" data-level="2.6" data-path="linkage-disequilibrium.html"><a href="linkage-disequilibrium.html#conclusion"><i class="fa fa-check"></i><b>2.6</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="random-drift-in-the-idealized-population.html"><a href="random-drift-in-the-idealized-population.html"><i class="fa fa-check"></i><b>3</b> Random drift in the idealized population</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="random-drift-in-the-idealized-population.html"><a href="random-drift-in-the-idealized-population.html#introduction-1"><i class="fa fa-check"></i><b>3.1</b> Introduction</a></li>
+<li class="chapter" data-level="3.2" data-path="random-drift-in-the-idealized-population.html"><a href="random-drift-in-the-idealized-population.html#flexible-parameters"><i class="fa fa-check"></i><b>3.2</b> Flexible parameters</a></li>
+<li class="chapter" data-level="3.3" data-path="random-drift-in-the-idealized-population.html"><a href="random-drift-in-the-idealized-population.html#making-a-for-loop"><i class="fa fa-check"></i><b>3.3</b> Making a For Loop</a></li>
+<li class="chapter" data-level="3.4" data-path="random-drift-in-the-idealized-population.html"><a href="random-drift-in-the-idealized-population.html#plotting-the-results"><i class="fa fa-check"></i><b>3.4</b> Plotting the results</a></li>
+<li class="chapter" data-level="3.5" data-path="random-drift-in-the-idealized-population.html"><a href="random-drift-in-the-idealized-population.html#conclusion-1"><i class="fa fa-check"></i><b>3.5</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="systems-of-close-inbreeding.html"><a href="systems-of-close-inbreeding.html"><i class="fa fa-check"></i><b>4</b> Systems of close inbreeding</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="systems-of-close-inbreeding.html"><a href="systems-of-close-inbreeding.html#introduction-2"><i class="fa fa-check"></i><b>4.1</b> Introduction</a></li>
+<li class="chapter" data-level="4.2" data-path="systems-of-close-inbreeding.html"><a href="systems-of-close-inbreeding.html#through-the-recurrence-equation"><i class="fa fa-check"></i><b>4.2</b> Through the recurrence equation</a></li>
+<li class="chapter" data-level="4.3" data-path="systems-of-close-inbreeding.html"><a href="systems-of-close-inbreeding.html#through-coancestry"><i class="fa fa-check"></i><b>4.3</b> Through coancestry</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="systems-of-close-inbreeding.html"><a href="systems-of-close-inbreeding.html#develop-a-pedigree-and-kinship-matrix"><i class="fa fa-check"></i><b>4.3.1</b> Develop a pedigree and kinship matrix</a></li>
+<li class="chapter" data-level="4.3.2" data-path="systems-of-close-inbreeding.html"><a href="systems-of-close-inbreeding.html#merge-the-pedigree-and-kinship-matrix"><i class="fa fa-check"></i><b>4.3.2</b> Merge the pedigree and kinship matrix</a></li>
+<li class="chapter" data-level="4.3.3" data-path="systems-of-close-inbreeding.html"><a href="systems-of-close-inbreeding.html#compare-with-the-recurrence-equation"><i class="fa fa-check"></i><b>4.3.3</b> Compare with the recurrence equation</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="systems-of-close-inbreeding.html"><a href="systems-of-close-inbreeding.html#conclusion-2"><i class="fa fa-check"></i><b>4.4</b> Conclusion</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A laboratory manual for quantitative genetics</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="systems-of-close-inbreeding" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">Chapter 4</span> Systems of close inbreeding<a href="systems-of-close-inbreeding.html#systems-of-close-inbreeding" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="introduction-2" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> Introduction<a href="systems-of-close-inbreeding.html#introduction-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Systems of close inbreeding were devised to increase the overall homozygocity of individuals over successive generations. Falconer &amp; Mackay describe several of the most common form of close inbreeding and present recurrence equations for determining the level of inbreeding as a function of generation from the base population. Here, we create a “proof” of the recurrence equations by also determining the accumulation of inbreeding through coancestry. Full sib matings are used as an example here such that you can explore other systems of close inbreeding on your own time.</p>
+</div>
+<div id="through-the-recurrence-equation" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> Through the recurrence equation<a href="systems-of-close-inbreeding.html#through-the-recurrence-equation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The reccurence equation for full sib mating (5.9) is:
+<span class="math display">\[
+F_t=\frac{1}{4}(1+2F_{t-1}+F_{t-2})
+\]</span>
+The following script employs a <em>for loop</em> to walk forward through 20 generations of full sib mating. A data frame with columns for <em>generation (t)</em> and <em>inbreeding (Fx)</em> is first defined to store the results of the <em>for loop</em>. Starting at generation 1 (<em>i</em>=2) and working toward generation 20 (<em>i</em>=21), <em>t</em> and <em>Fx</em> are applied to the recurrence equation. A plot of accumulated inbreeding as a function of generation is then produced for reference. The first few lines of the data frame are also shown for comparison with Table 5.1 in the text.</p>
+<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="systems-of-close-inbreeding.html#cb22-1" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">t =</span> <span class="dv">0</span><span class="sc">:</span><span class="dv">20</span>, <span class="at">Fx =</span> <span class="dv">0</span>)</span>
+<span id="cb22-2"><a href="systems-of-close-inbreeding.html#cb22-2" tabindex="-1"></a></span>
+<span id="cb22-3"><a href="systems-of-close-inbreeding.html#cb22-3" tabindex="-1"></a><span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">2</span><span class="sc">:</span><span class="dv">21</span>){</span>
+<span id="cb22-4"><a href="systems-of-close-inbreeding.html#cb22-4" tabindex="-1"></a>  <span class="fu">ifelse</span>(df<span class="sc">$</span>t[i] <span class="sc">==</span> <span class="dv">1</span>,</span>
+<span id="cb22-5"><a href="systems-of-close-inbreeding.html#cb22-5" tabindex="-1"></a>         df<span class="sc">$</span>Fx[i] <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">/</span><span class="dv">4</span><span class="sc">*</span>(<span class="dv">1</span> <span class="sc">+</span> <span class="dv">2</span><span class="sc">*</span>df<span class="sc">$</span>Fx[i<span class="dv">-1</span>]),</span>
+<span id="cb22-6"><a href="systems-of-close-inbreeding.html#cb22-6" tabindex="-1"></a>         df<span class="sc">$</span>Fx[i] <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">/</span><span class="dv">4</span><span class="sc">*</span>(<span class="dv">1</span> <span class="sc">+</span> <span class="dv">2</span><span class="sc">*</span>df<span class="sc">$</span>Fx[i<span class="dv">-1</span>] <span class="sc">+</span> df<span class="sc">$</span>Fx[i<span class="dv">-2</span>]))</span>
+<span id="cb22-7"><a href="systems-of-close-inbreeding.html#cb22-7" tabindex="-1"></a>}</span>
+<span id="cb22-8"><a href="systems-of-close-inbreeding.html#cb22-8" tabindex="-1"></a></span>
+<span id="cb22-9"><a href="systems-of-close-inbreeding.html#cb22-9" tabindex="-1"></a>df <span class="sc">%&gt;%</span></span>
+<span id="cb22-10"><a href="systems-of-close-inbreeding.html#cb22-10" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb22-11"><a href="systems-of-close-inbreeding.html#cb22-11" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">x =</span> t, <span class="at">y =</span> Fx),</span>
+<span id="cb22-12"><a href="systems-of-close-inbreeding.html#cb22-12" tabindex="-1"></a>            <span class="at">color =</span> <span class="st">&quot;navy&quot;</span>, <span class="at">linetype =</span> <span class="st">&quot;dotted&quot;</span>, <span class="at">linewidth =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb22-13"><a href="systems-of-close-inbreeding.html#cb22-13" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">x =</span> t, <span class="at">y =</span> Fx),</span>
+<span id="cb22-14"><a href="systems-of-close-inbreeding.html#cb22-14" tabindex="-1"></a>             <span class="at">color =</span> <span class="st">&quot;navy&quot;</span>, <span class="at">shape =</span> <span class="dv">1</span>, <span class="at">size =</span> <span class="fl">2.5</span>, <span class="at">stroke =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb22-15"><a href="systems-of-close-inbreeding.html#cb22-15" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">20</span>, <span class="at">by =</span> <span class="dv">1</span>)) <span class="sc">+</span></span>
+<span id="cb22-16"><a href="systems-of-close-inbreeding.html#cb22-16" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="at">by =</span> <span class="fl">0.1</span>)) <span class="sc">+</span></span>
+<span id="cb22-17"><a href="systems-of-close-inbreeding.html#cb22-17" tabindex="-1"></a>  <span class="fu">xlab</span>(<span class="st">&quot;generations&quot;</span>) <span class="sc">+</span></span>
+<span id="cb22-18"><a href="systems-of-close-inbreeding.html#cb22-18" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">&quot;inbreeding (F)&quot;</span>) <span class="sc">+</span></span>
+<span id="cb22-19"><a href="systems-of-close-inbreeding.html#cb22-19" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span></code></pre></div>
+<p><img src="bookdownproj_files/figure-html/c05_r3_reccurrence-1.png" width="576" /></p>
+<div class="tabwid"><style>.cl-ef8c6282{}.cl-ef7e5408{font-family:'Arial';font-size:10pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-ef852c92{margin:0;text-align:center;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-ef8549fc{width:0.5in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-ef8549fd{width:0.5in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-ef854a06{width:0.5in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing='true' class='cl-ef8c6282'><thead><tr style="overflow-wrap:break-word;"><th class="cl-ef8549fc"><p class="cl-ef852c92"><span class="cl-ef7e5408">t</span></p></th><th class="cl-ef8549fc"><p class="cl-ef852c92"><span class="cl-ef7e5408">Fx</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-ef8549fd"><p class="cl-ef852c92"><span class="cl-ef7e5408">0</span></p></td><td class="cl-ef8549fd"><p class="cl-ef852c92"><span class="cl-ef7e5408">0.0000000</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-ef8549fd"><p class="cl-ef852c92"><span class="cl-ef7e5408">1</span></p></td><td class="cl-ef8549fd"><p class="cl-ef852c92"><span class="cl-ef7e5408">0.2500000</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-ef8549fd"><p class="cl-ef852c92"><span class="cl-ef7e5408">2</span></p></td><td class="cl-ef8549fd"><p class="cl-ef852c92"><span class="cl-ef7e5408">0.3750000</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-ef8549fd"><p class="cl-ef852c92"><span class="cl-ef7e5408">3</span></p></td><td class="cl-ef8549fd"><p class="cl-ef852c92"><span class="cl-ef7e5408">0.5000000</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-ef8549fd"><p class="cl-ef852c92"><span class="cl-ef7e5408">4</span></p></td><td class="cl-ef8549fd"><p class="cl-ef852c92"><span class="cl-ef7e5408">0.5937500</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-ef8549fd"><p class="cl-ef852c92"><span class="cl-ef7e5408">5</span></p></td><td class="cl-ef8549fd"><p class="cl-ef852c92"><span class="cl-ef7e5408">0.6718750</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-ef8549fd"><p class="cl-ef852c92"><span class="cl-ef7e5408">6</span></p></td><td class="cl-ef8549fd"><p class="cl-ef852c92"><span class="cl-ef7e5408">0.7343750</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-ef8549fd"><p class="cl-ef852c92"><span class="cl-ef7e5408">7</span></p></td><td class="cl-ef8549fd"><p class="cl-ef852c92"><span class="cl-ef7e5408">0.7851562</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-ef8549fd"><p class="cl-ef852c92"><span class="cl-ef7e5408">8</span></p></td><td class="cl-ef8549fd"><p class="cl-ef852c92"><span class="cl-ef7e5408">0.8261719</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-ef854a06"><p class="cl-ef852c92"><span class="cl-ef7e5408">9</span></p></td><td class="cl-ef854a06"><p class="cl-ef852c92"><span class="cl-ef7e5408">0.8593750</span></p></td></tr></tbody></table></div>
+</div>
+<div id="through-coancestry" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> Through coancestry<a href="systems-of-close-inbreeding.html#through-coancestry" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In the last exercise we learned how to make a kinship matrix. We can now apply that exercise to the calculation of inbreeding (F) over repeated generations of full sib mating.</p>
+<div id="develop-a-pedigree-and-kinship-matrix" class="section level3 hasAnchor" number="4.3.1">
+<h3><span class="header-section-number">4.3.1</span> Develop a pedigree and kinship matrix<a href="systems-of-close-inbreeding.html#develop-a-pedigree-and-kinship-matrix" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>We need to first develop a pedigree file describing the full sib mating system. While this can be done in R, I often find this easier to do in a spreadsheet program like Google sheets. Using Figure 5.5 from the text, I drew up the first few generations of full sib mating using numerically ascending identification numbers. From the sketch, a sheet with columns for <em>id</em>, <em>sire</em>, <em>dam</em>, <em>sex</em>, and <em>generation</em>. A <em>generation</em> column is not needed for <code>kinship2</code> but is handy in both setting up the pedigree and graphing the computed inbreeding later on. Coding the pedigree is performed by starting with individual 1 and entering the identification numbers of their male (sire) and female (dam) parents, and their sex. For individual in the base population, parental values of 0 are entered. The first few generations of the sketched and coded pedigree are shown below. With the first 2x generations coded, recursive equations were written in sheets to extend the pedigree to 21 generations.</p>
+<p><img src="images/close_inbreeding_pedigree_sketch.png" width="25%" /><img src="images/close_inbreeding_pedigree_file.png" width="25%" /></p>
+<p>With the pedigree file made in sheets, the <code>googlesheets4</code> package was used to read the file and convert it to a data frame. This is actually a very handy function for working between spreadsheets and R. In fact, the spreadsheet almost acts as a simple general user interface (GUI) for entering data into R. Note, however, that the data doesn’t automatically update, but will need to be re-read through R. The only challenges one might encounter in using the <code>googlesheets4</code> package have to do with security tokens. If you have any problems, check <a href="https://stackoverflow.com/questions/tagged/googlesheets4">Stack Overflow</a> for resolutions. Once the pedigree file is in R, its applied to the <code>pedigree</code> function from the <code>kinship2</code> package for formatting.</p>
+<p>The <code>kinship2</code> package also includes pedigree plotting features. the following script trims the pedigree to three generations before subjecting it to the <code>plot.pedigree</code> function. The resulting pedigree displays the mating scheme with males as squares and females as circles. Large pedigrees can quickly become overwhelming but its a nice feature for illustrating specific mating systems such as those classified as close inbreeding.</p>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="systems-of-close-inbreeding.html#cb23-1" tabindex="-1"></a>ped_trim <span class="ot">&lt;-</span> ped_df <span class="sc">%&gt;%</span></span>
+<span id="cb23-2"><a href="systems-of-close-inbreeding.html#cb23-2" tabindex="-1"></a>  <span class="fu">filter</span>(t <span class="sc">&lt;</span> <span class="dv">3</span>)</span>
+<span id="cb23-3"><a href="systems-of-close-inbreeding.html#cb23-3" tabindex="-1"></a></span>
+<span id="cb23-4"><a href="systems-of-close-inbreeding.html#cb23-4" tabindex="-1"></a>ped_trim <span class="ot">&lt;-</span> <span class="fu">pedigree</span>(<span class="at">id =</span> ped_trim<span class="sc">$</span>id,</span>
+<span id="cb23-5"><a href="systems-of-close-inbreeding.html#cb23-5" tabindex="-1"></a>                   <span class="at">dadid =</span> ped_trim<span class="sc">$</span>sire,</span>
+<span id="cb23-6"><a href="systems-of-close-inbreeding.html#cb23-6" tabindex="-1"></a>                   <span class="at">momid =</span> ped_trim<span class="sc">$</span>dam,</span>
+<span id="cb23-7"><a href="systems-of-close-inbreeding.html#cb23-7" tabindex="-1"></a>                   <span class="at">sex =</span> ped_trim<span class="sc">$</span>sex,</span>
+<span id="cb23-8"><a href="systems-of-close-inbreeding.html#cb23-8" tabindex="-1"></a>                   <span class="at">missid =</span> <span class="dv">0</span>)</span>
+<span id="cb23-9"><a href="systems-of-close-inbreeding.html#cb23-9" tabindex="-1"></a></span>
+<span id="cb23-10"><a href="systems-of-close-inbreeding.html#cb23-10" tabindex="-1"></a><span class="fu">plot.pedigree</span>(ped_trim,</span>
+<span id="cb23-11"><a href="systems-of-close-inbreeding.html#cb23-11" tabindex="-1"></a>              <span class="at">packed =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb23-12"><a href="systems-of-close-inbreeding.html#cb23-12" tabindex="-1"></a>              <span class="at">align =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb23-13"><a href="systems-of-close-inbreeding.html#cb23-13" tabindex="-1"></a>              <span class="at">cex =</span> <span class="fl">0.75</span>)</span></code></pre></div>
+<p><img src="bookdownproj_files/figure-html/c05_r3_ped_plot-1.png" width="288" /></p>
+<p>The <code>kinship</code> function is used to develop a kinship matrix. A kinship matrix has same row x column dimensions as the number of individuals in the pedigree. Like pedigrees, they can also quickly become overwhelming. The first 10 rows and columns of our full sib kinship matrix is shown below for reference. It’s important to remember that each value of the matrix not only corresponds to the coancestry (<em>f</em>) between the parents indicated by the row &amp; column numbers, but also to the coefficient of inbreeding (F) of their offspring.</p>
+<div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb24-1"><a href="systems-of-close-inbreeding.html#cb24-1" tabindex="-1"></a><span class="fu">kinship</span>(ped_ks)[<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>,<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>]</span></code></pre></div>
+<pre><code>##       1    2     3     4     5     6       7       8       9      10
+## 1  0.50 0.00 0.250 0.250 0.250 0.250 0.25000 0.25000 0.25000 0.25000
+## 2  0.00 0.50 0.250 0.250 0.250 0.250 0.25000 0.25000 0.25000 0.25000
+## 3  0.25 0.25 0.500 0.250 0.375 0.375 0.37500 0.37500 0.37500 0.37500
+## 4  0.25 0.25 0.250 0.500 0.375 0.375 0.37500 0.37500 0.37500 0.37500
+## 5  0.25 0.25 0.375 0.375 0.625 0.375 0.50000 0.50000 0.50000 0.50000
+## 6  0.25 0.25 0.375 0.375 0.375 0.625 0.50000 0.50000 0.50000 0.50000
+## 7  0.25 0.25 0.375 0.375 0.500 0.500 0.68750 0.50000 0.59375 0.59375
+## 8  0.25 0.25 0.375 0.375 0.500 0.500 0.50000 0.68750 0.59375 0.59375
+## 9  0.25 0.25 0.375 0.375 0.500 0.500 0.59375 0.59375 0.75000 0.59375
+## 10 0.25 0.25 0.375 0.375 0.500 0.500 0.59375 0.59375 0.59375 0.75000</code></pre>
+</div>
+<div id="merge-the-pedigree-and-kinship-matrix" class="section level3 hasAnchor" number="4.3.2">
+<h3><span class="header-section-number">4.3.2</span> Merge the pedigree and kinship matrix<a href="systems-of-close-inbreeding.html#merge-the-pedigree-and-kinship-matrix" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>If the kinship matrix is converted to a data frame, it can then be converted to a 3-column long format data frame with columns for <em>id</em>, <em>sire</em>, and <em>dam</em>. If this data frame is then merged to the original pedigree file using <code>right_join</code> and by <em>sire</em> and <em>dam</em>, a column equating to the coancestry (f) of the sire-dam combination is added. By definition, this column also equates to the inbreeding coefficient (F) of the individual.</p>
+<p>The following code completed this operation and then goes a step further for the exercise at hand. First, the generation number (<em>t</em>) is reduced by 1 since <em>F</em> rather than <em>f</em> is being considered. Second, the average inbreeding coefficient per generation is calculated. These two changes permit direct comparison for the recurrence equation.</p>
+<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb26-1"><a href="systems-of-close-inbreeding.html#cb26-1" tabindex="-1"></a>df_coa <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="fu">kinship</span>(ped_ks)) <span class="sc">%&gt;%</span></span>
+<span id="cb26-2"><a href="systems-of-close-inbreeding.html#cb26-2" tabindex="-1"></a>  <span class="fu">set_names</span>(., <span class="at">nm =</span> ped_df<span class="sc">$</span>id) <span class="sc">%&gt;%</span></span>
+<span id="cb26-3"><a href="systems-of-close-inbreeding.html#cb26-3" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">sire =</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(ped_df<span class="sc">$</span>id)) <span class="sc">%&gt;%</span></span>
+<span id="cb26-4"><a href="systems-of-close-inbreeding.html#cb26-4" tabindex="-1"></a>  <span class="fu">gather</span>(<span class="at">key =</span> <span class="st">&quot;dam&quot;</span>, <span class="at">value =</span> <span class="st">&quot;f&quot;</span>, <span class="sc">-</span> <span class="fu">c</span>(sire)) <span class="sc">%&gt;%</span></span>
+<span id="cb26-5"><a href="systems-of-close-inbreeding.html#cb26-5" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">sire =</span> <span class="fu">as.numeric</span>(sire),</span>
+<span id="cb26-6"><a href="systems-of-close-inbreeding.html#cb26-6" tabindex="-1"></a>         <span class="at">dam =</span> <span class="fu">as.numeric</span>(dam)) <span class="sc">%&gt;%</span></span>
+<span id="cb26-7"><a href="systems-of-close-inbreeding.html#cb26-7" tabindex="-1"></a>  <span class="fu">right_join</span>(., ped_df, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">&quot;sire&quot;</span>, <span class="st">&quot;dam&quot;</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb26-8"><a href="systems-of-close-inbreeding.html#cb26-8" tabindex="-1"></a>  <span class="fu">select</span>(t, id, sire, dam, f) <span class="sc">%&gt;%</span></span>
+<span id="cb26-9"><a href="systems-of-close-inbreeding.html#cb26-9" tabindex="-1"></a>  <span class="fu">arrange</span>(id) <span class="sc">%&gt;%</span></span>
+<span id="cb26-10"><a href="systems-of-close-inbreeding.html#cb26-10" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">t =</span> <span class="fu">as.numeric</span>(t) <span class="sc">-</span> <span class="dv">1</span>) <span class="sc">%&gt;%</span> <span class="co"># this converts f to F</span></span>
+<span id="cb26-11"><a href="systems-of-close-inbreeding.html#cb26-11" tabindex="-1"></a>  <span class="fu">group_by</span>(t) <span class="sc">%&gt;%</span></span>
+<span id="cb26-12"><a href="systems-of-close-inbreeding.html#cb26-12" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">Ft =</span> <span class="fu">mean</span>(f)) <span class="sc">%&gt;%</span></span>
+<span id="cb26-13"><a href="systems-of-close-inbreeding.html#cb26-13" tabindex="-1"></a>  <span class="fu">na.omit</span>()</span></code></pre></div>
+</div>
+<div id="compare-with-the-recurrence-equation" class="section level3 hasAnchor" number="4.3.3">
+<h3><span class="header-section-number">4.3.3</span> Compare with the recurrence equation<a href="systems-of-close-inbreeding.html#compare-with-the-recurrence-equation" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>An overlay plot of the recurrence equation on coancestry is shown below. The two methods produce the same result without any error. Full sib inbreeding is straight forward in that there are no alternative mating designs. This is also the case for the offspring-parent and repeated backcross systems. Half sib mating is more complex in that a number of mating designs employing 3-4 parents result in half-sibs but also result in ancillary full sibs. As such, identifying the mating design that best corresponds to the recurrence equation might take some experimentation.</p>
+<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="systems-of-close-inbreeding.html#cb27-1" tabindex="-1"></a>df_coa <span class="sc">%&gt;%</span></span>
+<span id="cb27-2"><a href="systems-of-close-inbreeding.html#cb27-2" tabindex="-1"></a>  <span class="fu">merge</span>(., df, <span class="at">by =</span> <span class="st">&quot;t&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb27-3"><a href="systems-of-close-inbreeding.html#cb27-3" tabindex="-1"></a>  <span class="fu">gather</span>(<span class="at">key =</span> <span class="st">&quot;method&quot;</span>, <span class="at">value =</span> <span class="st">&quot;value&quot;</span>, <span class="sc">-</span>t) <span class="sc">%&gt;%</span></span>
+<span id="cb27-4"><a href="systems-of-close-inbreeding.html#cb27-4" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">method =</span> <span class="fu">case_when</span>(method <span class="sc">==</span> <span class="st">&quot;Ft&quot;</span> <span class="sc">~</span> <span class="st">&quot;coancestry&quot;</span>,</span>
+<span id="cb27-5"><a href="systems-of-close-inbreeding.html#cb27-5" tabindex="-1"></a>                            method <span class="sc">==</span> <span class="st">&quot;Fx&quot;</span> <span class="sc">~</span> <span class="st">&quot;recurrence&quot;</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb27-6"><a href="systems-of-close-inbreeding.html#cb27-6" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb27-7"><a href="systems-of-close-inbreeding.html#cb27-7" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">x =</span> t, <span class="at">y =</span> value, <span class="at">group =</span> method, <span class="at">color =</span> method),</span>
+<span id="cb27-8"><a href="systems-of-close-inbreeding.html#cb27-8" tabindex="-1"></a>            <span class="at">linetype =</span> <span class="st">&quot;dotted&quot;</span>, <span class="at">linewidth =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb27-9"><a href="systems-of-close-inbreeding.html#cb27-9" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">x =</span> t, <span class="at">y =</span> value, <span class="at">shape =</span> method, <span class="at">color =</span> method),</span>
+<span id="cb27-10"><a href="systems-of-close-inbreeding.html#cb27-10" tabindex="-1"></a>             <span class="at">size =</span> <span class="fl">2.5</span>, <span class="at">stroke =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb27-11"><a href="systems-of-close-inbreeding.html#cb27-11" tabindex="-1"></a>  <span class="fu">scale_shape_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">4</span>)) <span class="sc">+</span></span>
+<span id="cb27-12"><a href="systems-of-close-inbreeding.html#cb27-12" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">&quot;lightblue&quot;</span>, <span class="st">&quot;navy&quot;</span>)) <span class="sc">+</span></span>
+<span id="cb27-13"><a href="systems-of-close-inbreeding.html#cb27-13" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">20</span>, <span class="at">by =</span> <span class="dv">1</span>)) <span class="sc">+</span></span>
+<span id="cb27-14"><a href="systems-of-close-inbreeding.html#cb27-14" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="at">by =</span> <span class="fl">0.1</span>)) <span class="sc">+</span></span>
+<span id="cb27-15"><a href="systems-of-close-inbreeding.html#cb27-15" tabindex="-1"></a>  <span class="fu">xlab</span>(<span class="st">&quot;generations&quot;</span>) <span class="sc">+</span></span>
+<span id="cb27-16"><a href="systems-of-close-inbreeding.html#cb27-16" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">&quot;inbreeding (F)&quot;</span>) <span class="sc">+</span></span>
+<span id="cb27-17"><a href="systems-of-close-inbreeding.html#cb27-17" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span></code></pre></div>
+<p><img src="bookdownproj_files/figure-html/c05_r3_graph-1.png" width="576" /></p>
+</div>
+</div>
+<div id="conclusion-2" class="section level2 hasAnchor" number="4.4">
+<h2><span class="header-section-number">4.4</span> Conclusion<a href="systems-of-close-inbreeding.html#conclusion-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>With only minor changes, the scripts can be applied to the other systems of close inbreeding in the text with the exception of self-fertilization, which seemingly can’t be handled in <code>kinship2</code>. Performing this on your own time will help you better understand the relationship between pedigree illustrations and pedigree files. It will also reinforce the relationship between the coancestry of parents and the inbreeding coefficient of offspring, and provide a method for calculating generational inbreeding from individual coefficients.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="random-drift-in-the-idealized-population.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/pura-acuicultura/quantitative_genetics/edit/main/04-close_inbreeding.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/pura-acuicultura/quantitative_genetics/blob/main/04-close_inbreeding.Rmd",
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

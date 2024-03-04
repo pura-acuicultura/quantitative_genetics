@@ -12,3 +12,11 @@ flexible-parameters
 making-a-for-loop
 plotting-the-results
 conclusion-1
+systems-of-close-inbreeding
+introduction-2
+through-the-recurrence-equation
+through-coancestry
+develop-a-pedigree-and-kinship-matrix
+merge-the-pedigree-and-kinship-matrix
+compare-with-the-recurrence-equation
+conclusion-2
