@@ -5,5 +5,4 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 
-# Genetic constitution of a population
 

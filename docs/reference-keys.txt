@@ -1,4 +1,3 @@
-genetic-constitution-of-a-population
 linkage-disequilibrium
 introduction
 getting-started
