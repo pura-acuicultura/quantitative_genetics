@@ -20,3 +20,12 @@ develop-a-pedigree-and-kinship-matrix
 merge-the-pedigree-and-kinship-matrix
 compare-with-the-recurrence-equation
 conclusion-2
+change-of-base
+introduction-3
+development-of-the-base-population
+breed-from-a-to-b-from-b-to-x
+get-the-complete-a-to-x-pedigree
+calculate-inbreeding-for-a-to-b-b-to-x
+mathematical-change-of-base-population
+confirm-the-derived-result-with-actual-results
+conclusion-3

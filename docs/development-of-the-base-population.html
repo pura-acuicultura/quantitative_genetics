@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 6 Development of the base population | A laboratory manual for quantitative genetics</title>
+  <meta name="description" content="Chapter 6 Development of the base population | A laboratory manual for quantitative genetics" />
+  <meta name="generator" content="bookdown 0.37 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 6 Development of the base population | A laboratory manual for quantitative genetics" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 6 Development of the base population | A laboratory manual for quantitative genetics" />
+  
+  
+  
+
+<meta name="author" content="James Webb, PhD" />
+
+
+<meta name="date" content="2024-03-05" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="change-of-base.html"/>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<link href="libs/tabwid-1.1.3/tabwid.css" rel="stylesheet" />
+<script src="libs/tabwid-1.1.3/tabwid.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Quantitative genetics</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Genetic constitution of a population</a></li>
+<li class="chapter" data-level="2" data-path="linkage-disequilibrium.html"><a href="linkage-disequilibrium.html"><i class="fa fa-check"></i><b>2</b> Linkage disequilibrium</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="linkage-disequilibrium.html"><a href="linkage-disequilibrium.html#introduction"><i class="fa fa-check"></i><b>2.1</b> Introduction</a></li>
+<li class="chapter" data-level="2.2" data-path="linkage-disequilibrium.html"><a href="linkage-disequilibrium.html#getting-started"><i class="fa fa-check"></i><b>2.2</b> Getting started</a></li>
+<li class="chapter" data-level="2.3" data-path="linkage-disequilibrium.html"><a href="linkage-disequilibrium.html#development-of-the-populations"><i class="fa fa-check"></i><b>2.3</b> Development of the populations</a></li>
+<li class="chapter" data-level="2.4" data-path="linkage-disequilibrium.html"><a href="linkage-disequilibrium.html#un-linked-loci"><i class="fa fa-check"></i><b>2.4</b> Un-linked loci</a></li>
+<li class="chapter" data-level="2.5" data-path="linkage-disequilibrium.html"><a href="linkage-disequilibrium.html#closely-linked-loci"><i class="fa fa-check"></i><b>2.5</b> Closely linked loci</a></li>
+<li class="chapter" data-level="2.6" data-path="linkage-disequilibrium.html"><a href="linkage-disequilibrium.html#conclusion"><i class="fa fa-check"></i><b>2.6</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="random-drift-in-the-idealized-population.html"><a href="random-drift-in-the-idealized-population.html"><i class="fa fa-check"></i><b>3</b> Random drift in the idealized population</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="random-drift-in-the-idealized-population.html"><a href="random-drift-in-the-idealized-population.html#introduction-1"><i class="fa fa-check"></i><b>3.1</b> Introduction</a></li>
+<li class="chapter" data-level="3.2" data-path="random-drift-in-the-idealized-population.html"><a href="random-drift-in-the-idealized-population.html#flexible-parameters"><i class="fa fa-check"></i><b>3.2</b> Flexible parameters</a></li>
+<li class="chapter" data-level="3.3" data-path="random-drift-in-the-idealized-population.html"><a href="random-drift-in-the-idealized-population.html#making-a-for-loop"><i class="fa fa-check"></i><b>3.3</b> Making a For Loop</a></li>
+<li class="chapter" data-level="3.4" data-path="random-drift-in-the-idealized-population.html"><a href="random-drift-in-the-idealized-population.html#plotting-the-results"><i class="fa fa-check"></i><b>3.4</b> Plotting the results</a></li>
+<li class="chapter" data-level="3.5" data-path="random-drift-in-the-idealized-population.html"><a href="random-drift-in-the-idealized-population.html#conclusion-1"><i class="fa fa-check"></i><b>3.5</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="systems-of-close-inbreeding.html"><a href="systems-of-close-inbreeding.html"><i class="fa fa-check"></i><b>4</b> Systems of close inbreeding</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="systems-of-close-inbreeding.html"><a href="systems-of-close-inbreeding.html#introduction-2"><i class="fa fa-check"></i><b>4.1</b> Introduction</a></li>
+<li class="chapter" data-level="4.2" data-path="systems-of-close-inbreeding.html"><a href="systems-of-close-inbreeding.html#through-the-recurrence-equation"><i class="fa fa-check"></i><b>4.2</b> Through the recurrence equation</a></li>
+<li class="chapter" data-level="4.3" data-path="systems-of-close-inbreeding.html"><a href="systems-of-close-inbreeding.html#through-coancestry"><i class="fa fa-check"></i><b>4.3</b> Through coancestry</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="systems-of-close-inbreeding.html"><a href="systems-of-close-inbreeding.html#develop-a-pedigree-and-kinship-matrix"><i class="fa fa-check"></i><b>4.3.1</b> Develop a pedigree and kinship matrix</a></li>
+<li class="chapter" data-level="4.3.2" data-path="systems-of-close-inbreeding.html"><a href="systems-of-close-inbreeding.html#merge-the-pedigree-and-kinship-matrix"><i class="fa fa-check"></i><b>4.3.2</b> Merge the pedigree and kinship matrix</a></li>
+<li class="chapter" data-level="4.3.3" data-path="systems-of-close-inbreeding.html"><a href="systems-of-close-inbreeding.html#compare-with-the-recurrence-equation"><i class="fa fa-check"></i><b>4.3.3</b> Compare with the recurrence equation</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="systems-of-close-inbreeding.html"><a href="systems-of-close-inbreeding.html#conclusion-2"><i class="fa fa-check"></i><b>4.4</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="change-of-base.html"><a href="change-of-base.html"><i class="fa fa-check"></i><b>5</b> Change of base</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="change-of-base.html"><a href="change-of-base.html#introduction-3"><i class="fa fa-check"></i><b>5.1</b> Introduction</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="development-of-the-base-population.html"><a href="development-of-the-base-population.html"><i class="fa fa-check"></i><b>6</b> Development of the base population</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="development-of-the-base-population.html"><a href="development-of-the-base-population.html#breed-from-a-to-b-from-b-to-x"><i class="fa fa-check"></i><b>6.1</b> Breed from A-to-B &amp; from B-to-X</a></li>
+<li class="chapter" data-level="6.2" data-path="development-of-the-base-population.html"><a href="development-of-the-base-population.html#get-the-complete-a-to-x-pedigree"><i class="fa fa-check"></i><b>6.2</b> Get the complete A-to-X pedigree</a></li>
+<li class="chapter" data-level="6.3" data-path="development-of-the-base-population.html"><a href="development-of-the-base-population.html#calculate-inbreeding-for-a-to-b-b-to-x"><i class="fa fa-check"></i><b>6.3</b> Calculate inbreeding for A-to-B &amp; B-to-X</a></li>
+<li class="chapter" data-level="6.4" data-path="development-of-the-base-population.html"><a href="development-of-the-base-population.html#mathematical-change-of-base-population"><i class="fa fa-check"></i><b>6.4</b> Mathematical change of base population</a></li>
+<li class="chapter" data-level="6.5" data-path="development-of-the-base-population.html"><a href="development-of-the-base-population.html#confirm-the-derived-result-with-actual-results"><i class="fa fa-check"></i><b>6.5</b> Confirm the derived result with actual results</a></li>
+<li class="chapter" data-level="6.6" data-path="development-of-the-base-population.html"><a href="development-of-the-base-population.html#conclusion-3"><i class="fa fa-check"></i><b>6.6</b> Conclusion</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A laboratory manual for quantitative genetics</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="development-of-the-base-population" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">Chapter 6</span> Development of the base population<a href="development-of-the-base-population.html#development-of-the-base-population" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>To start the simulation a base population needs to be developed. Of all the simulations performed in the manual, this one probably has the least important base population. the reason being that all downstream calculations are based on the pedigree itself, rather than anything related to gene frequencies. As such, a single chromosome with 10 segregation sites produced using <code>quickhaplo</code> will produce the same results as an <em>in silico</em> copy of the mouse genome with ten thousand generations of burn-in. Example 5.2 specifies 42 generations of breeding at an effective population size of 40 (NB: from A-to-B), followed by a further 11 generations of full-sib mating (NB: from B-to-X).</p>
+<p>Any number of mating schemes could be used to go from A-to-B but the minimal inbreeding strategy common to laboratory animal, and describe in Chapter 4, is the easiest to envision. For minimal inbreeding <em>N_e = 2N-1</em>. As such, a base population with 20 individuals provides an <em>N_e</em> of just about 40. Sexes are specified to make the simulation easily compatible with the <code>kinship2</code> package. The following code develops base population A.</p>
+<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="development-of-the-base-population.html#cb29-1" tabindex="-1"></a>n_pop <span class="ot">&lt;-</span> <span class="dv">20</span></span>
+<span id="cb29-2"><a href="development-of-the-base-population.html#cb29-2" tabindex="-1"></a></span>
+<span id="cb29-3"><a href="development-of-the-base-population.html#cb29-3" tabindex="-1"></a>pop_haps <span class="ot">&lt;-</span> <span class="fu">quickHaplo</span>(<span class="at">nInd =</span> n_pop,      </span>
+<span id="cb29-4"><a href="development-of-the-base-population.html#cb29-4" tabindex="-1"></a>                       <span class="at">nChr =</span> <span class="dv">1</span>,      </span>
+<span id="cb29-5"><a href="development-of-the-base-population.html#cb29-5" tabindex="-1"></a>                       <span class="at">segSites =</span> <span class="dv">10</span>,</span>
+<span id="cb29-6"><a href="development-of-the-base-population.html#cb29-6" tabindex="-1"></a>                       <span class="at">genLen =</span> <span class="dv">1</span>,  </span>
+<span id="cb29-7"><a href="development-of-the-base-population.html#cb29-7" tabindex="-1"></a>                       <span class="at">ploidy =</span> 2L,   </span>
+<span id="cb29-8"><a href="development-of-the-base-population.html#cb29-8" tabindex="-1"></a>                       <span class="at">inbred =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb29-9"><a href="development-of-the-base-population.html#cb29-9" tabindex="-1"></a></span>
+<span id="cb29-10"><a href="development-of-the-base-population.html#cb29-10" tabindex="-1"></a>SP <span class="ot">=</span> SimParam<span class="sc">$</span><span class="fu">new</span>(pop_haps)</span>
+<span id="cb29-11"><a href="development-of-the-base-population.html#cb29-11" tabindex="-1"></a>SP<span class="sc">$</span><span class="fu">setSexes</span>(<span class="st">&quot;yes_sys&quot;</span>)</span>
+<span id="cb29-12"><a href="development-of-the-base-population.html#cb29-12" tabindex="-1"></a></span>
+<span id="cb29-13"><a href="development-of-the-base-population.html#cb29-13" tabindex="-1"></a>pop_0 <span class="ot">&lt;-</span> <span class="fu">newPop</span>(<span class="at">rawPop =</span> pop_haps,</span>
+<span id="cb29-14"><a href="development-of-the-base-population.html#cb29-14" tabindex="-1"></a>                <span class="at">simParam =</span> SP)</span></code></pre></div>
+<div id="breed-from-a-to-b-from-b-to-x" class="section level2 hasAnchor" number="6.1">
+<h2><span class="header-section-number">6.1</span> Breed from A-to-B &amp; from B-to-X<a href="development-of-the-base-population.html#breed-from-a-to-b-from-b-to-x" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Prior to breeding, a vector list was developed to hold the populations created by a for loop and the base population stored. The first loop employs the <code>randCross</code> function to perform 10 crosses each producing 2 progeny. In this way, the individuals of each generation are replaced by their offspring and an <em>N_e</em> of near 40 is maintained.</p>
+<p>Full-sib mating commences at generation 42. The function <code>makeCross</code> is used to perform the full-sib mating according to the previously defined cross plan. In this case, the cross plan takes advantage of the sequential and predictable enumeration of individuals in <code>AlphaSimR</code>. For each generation, individual IDs are used to fill a 2-column matrix row-wise. In this way, the matrix is composed of rows of brother-sister combinations. We only need to switch the column order to sister-brother to conform with the cross plan structure. With the logical organization of <code>AlphaSimR</code>, repeating the cross plan over a series of generations results in 10 separate full-sib lines.</p>
+<div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb30-1"><a href="development-of-the-base-population.html#cb30-1" tabindex="-1"></a>POP <span class="ot">&lt;-</span> <span class="fu">vector</span>(<span class="at">length =</span> <span class="dv">55</span>, <span class="at">mode =</span> <span class="st">&quot;list&quot;</span>)</span>
+<span id="cb30-2"><a href="development-of-the-base-population.html#cb30-2" tabindex="-1"></a></span>
+<span id="cb30-3"><a href="development-of-the-base-population.html#cb30-3" tabindex="-1"></a>POP[[<span class="dv">1</span>]] <span class="ot">&lt;-</span> pop_0</span>
+<span id="cb30-4"><a href="development-of-the-base-population.html#cb30-4" tabindex="-1"></a></span>
+<span id="cb30-5"><a href="development-of-the-base-population.html#cb30-5" tabindex="-1"></a><span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">2</span><span class="sc">:</span><span class="dv">43</span>){</span>
+<span id="cb30-6"><a href="development-of-the-base-population.html#cb30-6" tabindex="-1"></a>  POP[[i]] <span class="ot">&lt;-</span> <span class="fu">randCross</span>(<span class="at">pop =</span> POP[[i <span class="sc">-</span> <span class="dv">1</span>]],</span>
+<span id="cb30-7"><a href="development-of-the-base-population.html#cb30-7" tabindex="-1"></a>                        <span class="at">nCrosses =</span> <span class="dv">10</span>,</span>
+<span id="cb30-8"><a href="development-of-the-base-population.html#cb30-8" tabindex="-1"></a>                        <span class="at">nProgeny =</span> <span class="dv">2</span>,</span>
+<span id="cb30-9"><a href="development-of-the-base-population.html#cb30-9" tabindex="-1"></a>                        <span class="at">simParam =</span> SP)</span>
+<span id="cb30-10"><a href="development-of-the-base-population.html#cb30-10" tabindex="-1"></a>}</span>
+<span id="cb30-11"><a href="development-of-the-base-population.html#cb30-11" tabindex="-1"></a></span>
+<span id="cb30-12"><a href="development-of-the-base-population.html#cb30-12" tabindex="-1"></a><span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">44</span><span class="sc">:</span><span class="dv">55</span>){</span>
+<span id="cb30-13"><a href="development-of-the-base-population.html#cb30-13" tabindex="-1"></a></span>
+<span id="cb30-14"><a href="development-of-the-base-population.html#cb30-14" tabindex="-1"></a>  cp <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="at">data =</span> POP[[i<span class="dv">-1</span>]]<span class="sc">@</span>id,</span>
+<span id="cb30-15"><a href="development-of-the-base-population.html#cb30-15" tabindex="-1"></a>        <span class="at">ncol =</span> <span class="dv">2</span>,</span>
+<span id="cb30-16"><a href="development-of-the-base-population.html#cb30-16" tabindex="-1"></a>        <span class="at">byrow =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb30-17"><a href="development-of-the-base-population.html#cb30-17" tabindex="-1"></a>  </span>
+<span id="cb30-18"><a href="development-of-the-base-population.html#cb30-18" tabindex="-1"></a>  cp <span class="ot">&lt;-</span> <span class="fu">cbind</span>(cp[,<span class="dv">2</span>], cp[,<span class="dv">1</span>])</span>
+<span id="cb30-19"><a href="development-of-the-base-population.html#cb30-19" tabindex="-1"></a>  </span>
+<span id="cb30-20"><a href="development-of-the-base-population.html#cb30-20" tabindex="-1"></a>  POP[[i]] <span class="ot">&lt;-</span> <span class="fu">makeCross</span>(<span class="at">pop =</span> POP[[i<span class="dv">-1</span>]],</span>
+<span id="cb30-21"><a href="development-of-the-base-population.html#cb30-21" tabindex="-1"></a>                        <span class="at">crossPlan =</span> cp,</span>
+<span id="cb30-22"><a href="development-of-the-base-population.html#cb30-22" tabindex="-1"></a>                        <span class="at">nProgeny =</span> <span class="dv">2</span>,</span>
+<span id="cb30-23"><a href="development-of-the-base-population.html#cb30-23" tabindex="-1"></a>                        <span class="at">simParam =</span> SP)</span>
+<span id="cb30-24"><a href="development-of-the-base-population.html#cb30-24" tabindex="-1"></a>}</span></code></pre></div>
+</div>
+<div id="get-the-complete-a-to-x-pedigree" class="section level2 hasAnchor" number="6.2">
+<h2><span class="header-section-number">6.2</span> Get the complete A-to-X pedigree<a href="development-of-the-base-population.html#get-the-complete-a-to-x-pedigree" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>A function was first developed to pull and format the pedigree as a data frame from a single population. The <code>do.call</code> and <code>lapply</code> functions were then used to pull and combine the pedigrees from all populations. The first and last 5 entries in the pedigree are shown for interest. Note that both <em>sex</em> and <em>generation (t)</em> were added to the pedigree. While <em>sex</em> permits easy integration with <code>kinship2</code>, generation facilitates data wrangling and presentation later on.</p>
+<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="development-of-the-base-population.html#cb31-1" tabindex="-1"></a>full_ped <span class="ot">&lt;-</span> <span class="cf">function</span>(gen){</span>
+<span id="cb31-2"><a href="development-of-the-base-population.html#cb31-2" tabindex="-1"></a>  <span class="fu">getPed</span>(POP[[gen]]) <span class="sc">%&gt;%</span></span>
+<span id="cb31-3"><a href="development-of-the-base-population.html#cb31-3" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">t =</span> gen<span class="dv">-1</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb31-4"><a href="development-of-the-base-population.html#cb31-4" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">sex =</span> POP[[gen]]<span class="sc">@</span>sex) <span class="sc">%&gt;%</span></span>
+<span id="cb31-5"><a href="development-of-the-base-population.html#cb31-5" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">id =</span> <span class="fu">as.numeric</span>(id),</span>
+<span id="cb31-6"><a href="development-of-the-base-population.html#cb31-6" tabindex="-1"></a>           <span class="at">sire =</span> <span class="fu">as.numeric</span>(father),</span>
+<span id="cb31-7"><a href="development-of-the-base-population.html#cb31-7" tabindex="-1"></a>           <span class="at">dam =</span> <span class="fu">as.numeric</span>(mother)) <span class="sc">%&gt;%</span></span>
+<span id="cb31-8"><a href="development-of-the-base-population.html#cb31-8" tabindex="-1"></a>    <span class="fu">select</span>(t, id, sire, dam, sex)</span>
+<span id="cb31-9"><a href="development-of-the-base-population.html#cb31-9" tabindex="-1"></a>}</span>
+<span id="cb31-10"><a href="development-of-the-base-population.html#cb31-10" tabindex="-1"></a></span>
+<span id="cb31-11"><a href="development-of-the-base-population.html#cb31-11" tabindex="-1"></a>ped_df <span class="ot">&lt;-</span> <span class="fu">do.call</span>(rbind, <span class="fu">lapply</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">55</span>, <span class="at">FUN =</span> full_ped))</span></code></pre></div>
+<div class="tabwid"><style>.cl-a3bb79b8{}.cl-a39d182e{font-family:'Arial';font-size:10pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-a3a7ee16{margin:0;text-align:center;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-a3a83510{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a3a83524{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a3a83538{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing='true' class='cl-a3bb79b8'><thead><tr style="overflow-wrap:break-word;"><th class="cl-a3a83510"><p class="cl-a3a7ee16"><span class="cl-a39d182e">t</span></p></th><th class="cl-a3a83510"><p class="cl-a3a7ee16"><span class="cl-a39d182e">id</span></p></th><th class="cl-a3a83510"><p class="cl-a3a7ee16"><span class="cl-a39d182e">sire</span></p></th><th class="cl-a3a83510"><p class="cl-a3a7ee16"><span class="cl-a39d182e">dam</span></p></th><th class="cl-a3a83510"><p class="cl-a3a7ee16"><span class="cl-a39d182e">sex</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">0</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">1</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">0</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">0</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">M</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">0</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">2</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">0</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">0</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">F</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">0</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">3</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">0</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">0</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">M</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">0</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">4</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">0</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">0</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">F</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">0</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">5</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">0</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">0</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">M</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">54</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">1,096</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">1,075</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">1,076</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">F</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">54</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">1,097</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">1,077</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">1,078</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">M</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">54</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">1,098</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">1,077</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">1,078</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">F</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">54</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">1,099</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">1,079</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">1,080</span></p></td><td class="cl-a3a83524"><p class="cl-a3a7ee16"><span class="cl-a39d182e">M</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-a3a83538"><p class="cl-a3a7ee16"><span class="cl-a39d182e">54</span></p></td><td class="cl-a3a83538"><p class="cl-a3a7ee16"><span class="cl-a39d182e">1,100</span></p></td><td class="cl-a3a83538"><p class="cl-a3a7ee16"><span class="cl-a39d182e">1,079</span></p></td><td class="cl-a3a83538"><p class="cl-a3a7ee16"><span class="cl-a39d182e">1,080</span></p></td><td class="cl-a3a83538"><p class="cl-a3a7ee16"><span class="cl-a39d182e">F</span></p></td></tr></tbody></table></div>
+</div>
+<div id="calculate-inbreeding-for-a-to-b-b-to-x" class="section level2 hasAnchor" number="6.3">
+<h2><span class="header-section-number">6.3</span> Calculate inbreeding for A-to-B &amp; B-to-X<a href="development-of-the-base-population.html#calculate-inbreeding-for-a-to-b-b-to-x" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>For the purpose of the exercise, we will first examine the pedigrees separately from A-to-B and B-to-X. The following code simply filters the pedigree to generations less than 42 before formatting using the <code>pedigree</code> function from <code>kinship2</code>. With the pedigree formatted, the <code>kinship</code> function is applied, the resulting matrix converted to a long-format data frame, merging with the original pedigree file, and calculating the mean coefficient of inbreeding (F) for each generation. For more details on this process, revisit the preceding exercise comparing recurrence equations and coancestry.</p>
+<p>Because this is a simulation, variance exists in the calculated inbreeding from generation-to-generation. To compensate for this variation, a linear model in the form of <em>F = b + mt</em> is fit to the data. A plot of inbreeding as a function of time is then produced so the results can be examined. After 42 generations, inbreeding reaches a level of just over 0.4. This equates well to the theoretical value of 0.410 reported in the example problem.</p>
+<div class="sourceCode" id="cb32"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb32-1"><a href="development-of-the-base-population.html#cb32-1" tabindex="-1"></a>ped_AB <span class="ot">&lt;-</span> ped_df <span class="sc">%&gt;%</span></span>
+<span id="cb32-2"><a href="development-of-the-base-population.html#cb32-2" tabindex="-1"></a>  <span class="fu">filter</span>(t <span class="sc">&lt;</span> <span class="dv">43</span>)</span>
+<span id="cb32-3"><a href="development-of-the-base-population.html#cb32-3" tabindex="-1"></a></span>
+<span id="cb32-4"><a href="development-of-the-base-population.html#cb32-4" tabindex="-1"></a>ped_ks <span class="ot">&lt;-</span> <span class="fu">pedigree</span>(<span class="at">id =</span> ped_AB<span class="sc">$</span>id,</span>
+<span id="cb32-5"><a href="development-of-the-base-population.html#cb32-5" tabindex="-1"></a>                   <span class="at">dadid =</span> ped_AB<span class="sc">$</span>sire,</span>
+<span id="cb32-6"><a href="development-of-the-base-population.html#cb32-6" tabindex="-1"></a>                   <span class="at">momid =</span> ped_AB<span class="sc">$</span>dam,</span>
+<span id="cb32-7"><a href="development-of-the-base-population.html#cb32-7" tabindex="-1"></a>                   <span class="at">sex =</span> ped_AB<span class="sc">$</span>sex,</span>
+<span id="cb32-8"><a href="development-of-the-base-population.html#cb32-8" tabindex="-1"></a>                   <span class="at">missid =</span> <span class="dv">0</span>)</span>
+<span id="cb32-9"><a href="development-of-the-base-population.html#cb32-9" tabindex="-1"></a></span>
+<span id="cb32-10"><a href="development-of-the-base-population.html#cb32-10" tabindex="-1"></a>df_AB <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="fu">kinship</span>(ped_ks)) <span class="sc">%&gt;%</span></span>
+<span id="cb32-11"><a href="development-of-the-base-population.html#cb32-11" tabindex="-1"></a>  <span class="fu">set_names</span>(., <span class="at">nm =</span> ped_ks<span class="sc">$</span>id) <span class="sc">%&gt;%</span></span>
+<span id="cb32-12"><a href="development-of-the-base-population.html#cb32-12" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">sire =</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(ped_ks<span class="sc">$</span>id)) <span class="sc">%&gt;%</span></span>
+<span id="cb32-13"><a href="development-of-the-base-population.html#cb32-13" tabindex="-1"></a>  <span class="fu">gather</span>(<span class="at">key =</span> <span class="st">&quot;dam&quot;</span>, <span class="at">value =</span> <span class="st">&quot;f&quot;</span>, <span class="sc">-</span> <span class="fu">c</span>(sire)) <span class="sc">%&gt;%</span></span>
+<span id="cb32-14"><a href="development-of-the-base-population.html#cb32-14" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">sire =</span> <span class="fu">as.numeric</span>(sire),</span>
+<span id="cb32-15"><a href="development-of-the-base-population.html#cb32-15" tabindex="-1"></a>         <span class="at">dam =</span> <span class="fu">as.numeric</span>(dam)) <span class="sc">%&gt;%</span></span>
+<span id="cb32-16"><a href="development-of-the-base-population.html#cb32-16" tabindex="-1"></a>  <span class="fu">right_join</span>(., ped_AB, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">&quot;sire&quot;</span>, <span class="st">&quot;dam&quot;</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb32-17"><a href="development-of-the-base-population.html#cb32-17" tabindex="-1"></a>  <span class="fu">select</span>(t, id, sire, dam, f) <span class="sc">%&gt;%</span></span>
+<span id="cb32-18"><a href="development-of-the-base-population.html#cb32-18" tabindex="-1"></a>  <span class="fu">arrange</span>(id) <span class="sc">%&gt;%</span></span>
+<span id="cb32-19"><a href="development-of-the-base-population.html#cb32-19" tabindex="-1"></a>  <span class="fu">group_by</span>(t) <span class="sc">%&gt;%</span></span>
+<span id="cb32-20"><a href="development-of-the-base-population.html#cb32-20" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">Ft =</span> <span class="fu">mean</span>(f)) <span class="sc">%&gt;%</span></span>
+<span id="cb32-21"><a href="development-of-the-base-population.html#cb32-21" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Ft =</span> <span class="fu">ifelse</span>(<span class="fu">is.na</span>(Ft) <span class="sc">==</span> <span class="cn">TRUE</span>, <span class="dv">0</span>, Ft))</span>
+<span id="cb32-22"><a href="development-of-the-base-population.html#cb32-22" tabindex="-1"></a></span>
+<span id="cb32-23"><a href="development-of-the-base-population.html#cb32-23" tabindex="-1"></a>mod_AB <span class="ot">&lt;-</span> <span class="fu">lm</span>(Ft<span class="sc">~</span>t, <span class="at">data =</span> df_AB)</span>
+<span id="cb32-24"><a href="development-of-the-base-population.html#cb32-24" tabindex="-1"></a></span>
+<span id="cb32-25"><a href="development-of-the-base-population.html#cb32-25" tabindex="-1"></a>df_AB <span class="sc">%&gt;%</span></span>
+<span id="cb32-26"><a href="development-of-the-base-population.html#cb32-26" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb32-27"><a href="development-of-the-base-population.html#cb32-27" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">x =</span> t, <span class="at">y =</span> Ft),</span>
+<span id="cb32-28"><a href="development-of-the-base-population.html#cb32-28" tabindex="-1"></a>            <span class="at">color =</span> <span class="st">&quot;navy&quot;</span>, <span class="at">linetype =</span> <span class="st">&quot;dotted&quot;</span>, <span class="at">linewidth =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb32-29"><a href="development-of-the-base-population.html#cb32-29" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">x =</span> t, <span class="at">y =</span> Ft),</span>
+<span id="cb32-30"><a href="development-of-the-base-population.html#cb32-30" tabindex="-1"></a>             <span class="at">color =</span> <span class="st">&quot;navy&quot;</span>, <span class="at">shape =</span> <span class="dv">1</span>, <span class="at">size =</span> <span class="fl">2.5</span>, <span class="at">stroke =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb32-31"><a href="development-of-the-base-population.html#cb32-31" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">x =</span> t, <span class="at">y =</span> <span class="fu">predict</span>(mod_AB)),</span>
+<span id="cb32-32"><a href="development-of-the-base-population.html#cb32-32" tabindex="-1"></a>            <span class="at">color =</span> <span class="st">&quot;black&quot;</span>, <span class="at">linewidth =</span> <span class="fl">0.75</span>) <span class="sc">+</span></span>
+<span id="cb32-33"><a href="development-of-the-base-population.html#cb32-33" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">60</span>, <span class="at">by =</span> <span class="dv">2</span>)) <span class="sc">+</span></span>
+<span id="cb32-34"><a href="development-of-the-base-population.html#cb32-34" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="at">by =</span> <span class="fl">0.1</span>)) <span class="sc">+</span></span>
+<span id="cb32-35"><a href="development-of-the-base-population.html#cb32-35" tabindex="-1"></a>  <span class="fu">xlab</span>(<span class="st">&quot;generations&quot;</span>) <span class="sc">+</span></span>
+<span id="cb32-36"><a href="development-of-the-base-population.html#cb32-36" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">&quot;inbreeding (F)&quot;</span>) <span class="sc">+</span></span>
+<span id="cb32-37"><a href="development-of-the-base-population.html#cb32-37" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span></code></pre></div>
+<p><img src="bookdownproj_files/figure-html/C05_R3_F_AB-1.png" width="624" /></p>
+<p>The same basic processes are applied to generations 42 to 54 that represent the progression from B-to-X. The only difference between the scripts are a few lines of code to revert the filtered pedigree IDs to start from 1. After 11 generations of full-sib mating, inbreeding reaches a level equal to 0.908. This is equivalent to the theoretical value given in the example problem, and in table 5.1.</p>
+<div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb33-1"><a href="development-of-the-base-population.html#cb33-1" tabindex="-1"></a>ped_BX <span class="ot">&lt;-</span> ped_df <span class="sc">%&gt;%</span></span>
+<span id="cb33-2"><a href="development-of-the-base-population.html#cb33-2" tabindex="-1"></a>  <span class="fu">filter</span>(t <span class="sc">&gt;</span> <span class="dv">41</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb33-3"><a href="development-of-the-base-population.html#cb33-3" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">id =</span> id <span class="sc">-</span> <span class="dv">840</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb33-4"><a href="development-of-the-base-population.html#cb33-4" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">sire =</span> <span class="fu">ifelse</span>(sire <span class="sc">-</span> <span class="dv">840</span> <span class="sc">&lt;</span> <span class="dv">0</span>, <span class="dv">0</span>, sire <span class="sc">-</span> <span class="dv">840</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb33-5"><a href="development-of-the-base-population.html#cb33-5" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">dam =</span> <span class="fu">ifelse</span>(dam <span class="sc">-</span> <span class="dv">840</span> <span class="sc">&lt;</span> <span class="dv">0</span>, <span class="dv">0</span>, dam <span class="sc">-</span> <span class="dv">840</span>))</span>
+<span id="cb33-6"><a href="development-of-the-base-population.html#cb33-6" tabindex="-1"></a></span>
+<span id="cb33-7"><a href="development-of-the-base-population.html#cb33-7" tabindex="-1"></a>ped_ks <span class="ot">&lt;-</span> <span class="fu">pedigree</span>(<span class="at">id =</span> ped_BX<span class="sc">$</span>id,</span>
+<span id="cb33-8"><a href="development-of-the-base-population.html#cb33-8" tabindex="-1"></a>                   <span class="at">dadid =</span> ped_BX<span class="sc">$</span>sire,</span>
+<span id="cb33-9"><a href="development-of-the-base-population.html#cb33-9" tabindex="-1"></a>                   <span class="at">momid =</span> ped_BX<span class="sc">$</span>dam,</span>
+<span id="cb33-10"><a href="development-of-the-base-population.html#cb33-10" tabindex="-1"></a>                   <span class="at">sex =</span> ped_BX<span class="sc">$</span>sex,</span>
+<span id="cb33-11"><a href="development-of-the-base-population.html#cb33-11" tabindex="-1"></a>                   <span class="at">missid =</span> <span class="dv">0</span>)</span>
+<span id="cb33-12"><a href="development-of-the-base-population.html#cb33-12" tabindex="-1"></a></span>
+<span id="cb33-13"><a href="development-of-the-base-population.html#cb33-13" tabindex="-1"></a>df_BX <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="fu">kinship</span>(ped_ks)) <span class="sc">%&gt;%</span></span>
+<span id="cb33-14"><a href="development-of-the-base-population.html#cb33-14" tabindex="-1"></a>  <span class="fu">set_names</span>(., <span class="at">nm =</span> ped_ks<span class="sc">$</span>id) <span class="sc">%&gt;%</span></span>
+<span id="cb33-15"><a href="development-of-the-base-population.html#cb33-15" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">sire =</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(ped_ks<span class="sc">$</span>id)) <span class="sc">%&gt;%</span></span>
+<span id="cb33-16"><a href="development-of-the-base-population.html#cb33-16" tabindex="-1"></a>  <span class="fu">gather</span>(<span class="at">key =</span> <span class="st">&quot;dam&quot;</span>, <span class="at">value =</span> <span class="st">&quot;f&quot;</span>, <span class="sc">-</span> <span class="fu">c</span>(sire)) <span class="sc">%&gt;%</span></span>
+<span id="cb33-17"><a href="development-of-the-base-population.html#cb33-17" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">sire =</span> <span class="fu">as.numeric</span>(sire),</span>
+<span id="cb33-18"><a href="development-of-the-base-population.html#cb33-18" tabindex="-1"></a>         <span class="at">dam =</span> <span class="fu">as.numeric</span>(dam)) <span class="sc">%&gt;%</span></span>
+<span id="cb33-19"><a href="development-of-the-base-population.html#cb33-19" tabindex="-1"></a>  <span class="fu">right_join</span>(., ped_BX, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">&quot;sire&quot;</span>, <span class="st">&quot;dam&quot;</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb33-20"><a href="development-of-the-base-population.html#cb33-20" tabindex="-1"></a>  <span class="fu">select</span>(t, id, sire, dam, f) <span class="sc">%&gt;%</span></span>
+<span id="cb33-21"><a href="development-of-the-base-population.html#cb33-21" tabindex="-1"></a>  <span class="fu">arrange</span>(id) <span class="sc">%&gt;%</span></span>
+<span id="cb33-22"><a href="development-of-the-base-population.html#cb33-22" tabindex="-1"></a>  <span class="fu">group_by</span>(t) <span class="sc">%&gt;%</span></span>
+<span id="cb33-23"><a href="development-of-the-base-population.html#cb33-23" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">Ft =</span> <span class="fu">mean</span>(f)) <span class="sc">%&gt;%</span></span>
+<span id="cb33-24"><a href="development-of-the-base-population.html#cb33-24" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Ft =</span> <span class="fu">ifelse</span>(<span class="fu">is.na</span>(Ft) <span class="sc">==</span> <span class="cn">TRUE</span>, <span class="dv">0</span>, Ft))</span>
+<span id="cb33-25"><a href="development-of-the-base-population.html#cb33-25" tabindex="-1"></a></span>
+<span id="cb33-26"><a href="development-of-the-base-population.html#cb33-26" tabindex="-1"></a>df_BX <span class="sc">%&gt;%</span></span>
+<span id="cb33-27"><a href="development-of-the-base-population.html#cb33-27" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb33-28"><a href="development-of-the-base-population.html#cb33-28" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">x =</span> t, <span class="at">y =</span> Ft),</span>
+<span id="cb33-29"><a href="development-of-the-base-population.html#cb33-29" tabindex="-1"></a>            <span class="at">color =</span> <span class="st">&quot;navy&quot;</span>, <span class="at">linetype =</span> <span class="st">&quot;dotted&quot;</span>, <span class="at">linewidth =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb33-30"><a href="development-of-the-base-population.html#cb33-30" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">x =</span> t, <span class="at">y =</span> Ft),</span>
+<span id="cb33-31"><a href="development-of-the-base-population.html#cb33-31" tabindex="-1"></a>             <span class="at">color =</span> <span class="st">&quot;navy&quot;</span>, <span class="at">shape =</span> <span class="dv">1</span>, <span class="at">size =</span> <span class="fl">2.5</span>, <span class="at">stroke =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb33-32"><a href="development-of-the-base-population.html#cb33-32" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">60</span>, <span class="at">by =</span> <span class="dv">1</span>)) <span class="sc">+</span></span>
+<span id="cb33-33"><a href="development-of-the-base-population.html#cb33-33" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="at">by =</span> <span class="fl">0.1</span>)) <span class="sc">+</span></span>
+<span id="cb33-34"><a href="development-of-the-base-population.html#cb33-34" tabindex="-1"></a>  <span class="fu">xlab</span>(<span class="st">&quot;generations&quot;</span>) <span class="sc">+</span></span>
+<span id="cb33-35"><a href="development-of-the-base-population.html#cb33-35" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">&quot;inbreeding (F)&quot;</span>) <span class="sc">+</span></span>
+<span id="cb33-36"><a href="development-of-the-base-population.html#cb33-36" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span></code></pre></div>
+<p><img src="bookdownproj_files/figure-html/C05_R3_F_BX-1.png" width="624" /></p>
+</div>
+<div id="mathematical-change-of-base-population" class="section level2 hasAnchor" number="6.4">
+<h2><span class="header-section-number">6.4</span> Mathematical change of base population<a href="development-of-the-base-population.html#mathematical-change-of-base-population" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>With the accumulation of inbreeding determined for the progression from A-to-B and B-to-X, it is only a matter of applying equation 5.17 to derive the relationship for progression from A-to-X. For the first 42 generations, the model is used to estimate <em>F_B-A</em>. Since there is no variation in the measure, <em>F_X-B</em> is acquired directly from generation 54. Equation 5.17 results in the <em>panmictic index (P_X-A)</em>. To convert to <em>F_X-A</em> one simply needs to subtract the panmictic index from 1. The results will vary a bit because its a stochastic simulation but should be fairly close to the <em>F = 0.946</em> value reported in the example problem.</p>
+<div class="sourceCode" id="cb34"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb34-1"><a href="development-of-the-base-population.html#cb34-1" tabindex="-1"></a>b <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(mod_AB<span class="sc">$</span>coefficients[<span class="dv">1</span>])</span>
+<span id="cb34-2"><a href="development-of-the-base-population.html#cb34-2" tabindex="-1"></a>m <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(mod_AB<span class="sc">$</span>coefficients[<span class="dv">2</span>])</span>
+<span id="cb34-3"><a href="development-of-the-base-population.html#cb34-3" tabindex="-1"></a></span>
+<span id="cb34-4"><a href="development-of-the-base-population.html#cb34-4" tabindex="-1"></a>F_BA <span class="ot">&lt;-</span> b <span class="sc">+</span> m<span class="sc">*</span><span class="dv">42</span></span>
+<span id="cb34-5"><a href="development-of-the-base-population.html#cb34-5" tabindex="-1"></a></span>
+<span id="cb34-6"><a href="development-of-the-base-population.html#cb34-6" tabindex="-1"></a>F_XB <span class="ot">&lt;-</span> df_BX <span class="sc">%&gt;%</span></span>
+<span id="cb34-7"><a href="development-of-the-base-population.html#cb34-7" tabindex="-1"></a>  <span class="fu">filter</span>(t <span class="sc">==</span> <span class="dv">54</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb34-8"><a href="development-of-the-base-population.html#cb34-8" tabindex="-1"></a>  <span class="fu">pull</span>(Ft)</span>
+<span id="cb34-9"><a href="development-of-the-base-population.html#cb34-9" tabindex="-1"></a></span>
+<span id="cb34-10"><a href="development-of-the-base-population.html#cb34-10" tabindex="-1"></a>P_XA <span class="ot">&lt;-</span> (<span class="dv">1</span><span class="sc">-</span>F_XB)<span class="sc">*</span>(<span class="dv">1</span><span class="sc">-</span>F_BA)</span>
+<span id="cb34-11"><a href="development-of-the-base-population.html#cb34-11" tabindex="-1"></a>F_XA_cob <span class="ot">&lt;-</span> (<span class="dv">1</span><span class="sc">-</span>P_XA)</span></code></pre></div>
+<div class="tabwid"><style>.cl-a6154022{}.cl-a6022ac8{font-family:'Arial';font-size:10pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-a60aa34c{margin:0;text-align:center;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-a60acb10{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a60acb24{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing='true' class='cl-a6154022'><thead><tr style="overflow-wrap:break-word;"><th class="cl-a60acb10"><p class="cl-a60aa34c"><span class="cl-a6022ac8">parameter</span></p></th><th class="cl-a60acb10"><p class="cl-a60aa34c"><span class="cl-a6022ac8">value</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-a60acb24"><p class="cl-a60aa34c"><span class="cl-a6022ac8">F_XA_cob</span></p></td><td class="cl-a60acb24"><p class="cl-a60aa34c"><span class="cl-a6022ac8">0.9481749</span></p></td></tr></tbody></table></div>
+</div>
+<div id="confirm-the-derived-result-with-actual-results" class="section level2 hasAnchor" number="6.5">
+<h2><span class="header-section-number">6.5</span> Confirm the derived result with actual results<a href="development-of-the-base-population.html#confirm-the-derived-result-with-actual-results" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Rather than confirming the results of the book, here we are interested in demonstrating that the mathematical change of base population is equal to the actual accumulation of inbreeding for the progression from A-to-X. To determine this value can extend the preceding analysis to the entire pedigree from generations 0 to 54. A plot of <em>F as a function of generation</em> illustrates the accumulation of inbreeding throughout both the random and full-sib breeding phases.</p>
+<div class="sourceCode" id="cb35"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb35-1"><a href="development-of-the-base-population.html#cb35-1" tabindex="-1"></a>ped_ks <span class="ot">&lt;-</span> <span class="fu">pedigree</span>(<span class="at">id =</span> ped_df<span class="sc">$</span>id,</span>
+<span id="cb35-2"><a href="development-of-the-base-population.html#cb35-2" tabindex="-1"></a>                   <span class="at">dadid =</span> ped_df<span class="sc">$</span>sire,</span>
+<span id="cb35-3"><a href="development-of-the-base-population.html#cb35-3" tabindex="-1"></a>                   <span class="at">momid =</span> ped_df<span class="sc">$</span>dam,</span>
+<span id="cb35-4"><a href="development-of-the-base-population.html#cb35-4" tabindex="-1"></a>                   <span class="at">sex =</span> ped_df<span class="sc">$</span>sex,</span>
+<span id="cb35-5"><a href="development-of-the-base-population.html#cb35-5" tabindex="-1"></a>                   <span class="at">missid =</span> <span class="dv">0</span>)</span>
+<span id="cb35-6"><a href="development-of-the-base-population.html#cb35-6" tabindex="-1"></a></span>
+<span id="cb35-7"><a href="development-of-the-base-population.html#cb35-7" tabindex="-1"></a>df_XA <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="fu">kinship</span>(ped_ks)) <span class="sc">%&gt;%</span></span>
+<span id="cb35-8"><a href="development-of-the-base-population.html#cb35-8" tabindex="-1"></a>  <span class="fu">set_names</span>(., <span class="at">nm =</span> ped_df<span class="sc">$</span>id) <span class="sc">%&gt;%</span></span>
+<span id="cb35-9"><a href="development-of-the-base-population.html#cb35-9" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">sire =</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(ped_df<span class="sc">$</span>id)) <span class="sc">%&gt;%</span></span>
+<span id="cb35-10"><a href="development-of-the-base-population.html#cb35-10" tabindex="-1"></a>  <span class="fu">gather</span>(<span class="at">key =</span> <span class="st">&quot;dam&quot;</span>, <span class="at">value =</span> <span class="st">&quot;f&quot;</span>, <span class="sc">-</span> <span class="fu">c</span>(sire)) <span class="sc">%&gt;%</span></span>
+<span id="cb35-11"><a href="development-of-the-base-population.html#cb35-11" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">sire =</span> <span class="fu">as.numeric</span>(sire),</span>
+<span id="cb35-12"><a href="development-of-the-base-population.html#cb35-12" tabindex="-1"></a>         <span class="at">dam =</span> <span class="fu">as.numeric</span>(dam)) <span class="sc">%&gt;%</span></span>
+<span id="cb35-13"><a href="development-of-the-base-population.html#cb35-13" tabindex="-1"></a>  <span class="fu">right_join</span>(., ped_df, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">&quot;sire&quot;</span>, <span class="st">&quot;dam&quot;</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb35-14"><a href="development-of-the-base-population.html#cb35-14" tabindex="-1"></a>  <span class="fu">select</span>(t, id, sire, dam, f) <span class="sc">%&gt;%</span></span>
+<span id="cb35-15"><a href="development-of-the-base-population.html#cb35-15" tabindex="-1"></a>  <span class="fu">arrange</span>(id) <span class="sc">%&gt;%</span></span>
+<span id="cb35-16"><a href="development-of-the-base-population.html#cb35-16" tabindex="-1"></a>  <span class="fu">group_by</span>(t) <span class="sc">%&gt;%</span></span>
+<span id="cb35-17"><a href="development-of-the-base-population.html#cb35-17" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">Ft =</span> <span class="fu">mean</span>(f)) <span class="sc">%&gt;%</span></span>
+<span id="cb35-18"><a href="development-of-the-base-population.html#cb35-18" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Ft =</span> <span class="fu">ifelse</span>(<span class="fu">is.na</span>(Ft) <span class="sc">==</span> <span class="cn">TRUE</span>, <span class="dv">0</span>, Ft))</span>
+<span id="cb35-19"><a href="development-of-the-base-population.html#cb35-19" tabindex="-1"></a></span>
+<span id="cb35-20"><a href="development-of-the-base-population.html#cb35-20" tabindex="-1"></a>df_XA <span class="sc">%&gt;%</span></span>
+<span id="cb35-21"><a href="development-of-the-base-population.html#cb35-21" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb35-22"><a href="development-of-the-base-population.html#cb35-22" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">x =</span> t, <span class="at">y =</span> Ft),</span>
+<span id="cb35-23"><a href="development-of-the-base-population.html#cb35-23" tabindex="-1"></a>            <span class="at">color =</span> <span class="st">&quot;navy&quot;</span>, <span class="at">linetype =</span> <span class="st">&quot;dotted&quot;</span>, <span class="at">linewidth =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb35-24"><a href="development-of-the-base-population.html#cb35-24" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">x =</span> t, <span class="at">y =</span> Ft),</span>
+<span id="cb35-25"><a href="development-of-the-base-population.html#cb35-25" tabindex="-1"></a>             <span class="at">color =</span> <span class="st">&quot;navy&quot;</span>, <span class="at">shape =</span> <span class="dv">1</span>, <span class="at">size =</span> <span class="fl">2.5</span>, <span class="at">stroke =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb35-26"><a href="development-of-the-base-population.html#cb35-26" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">60</span>, <span class="at">by =</span> <span class="dv">2</span>)) <span class="sc">+</span></span>
+<span id="cb35-27"><a href="development-of-the-base-population.html#cb35-27" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="at">by =</span> <span class="fl">0.1</span>)) <span class="sc">+</span></span>
+<span id="cb35-28"><a href="development-of-the-base-population.html#cb35-28" tabindex="-1"></a>  <span class="fu">xlab</span>(<span class="st">&quot;generations&quot;</span>) <span class="sc">+</span></span>
+<span id="cb35-29"><a href="development-of-the-base-population.html#cb35-29" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">&quot;inbreeding (F)&quot;</span>) <span class="sc">+</span></span>
+<span id="cb35-30"><a href="development-of-the-base-population.html#cb35-30" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span></code></pre></div>
+<p><img src="bookdownproj_files/figure-html/C05_R3_Fcombined-1.png" width="624" /></p>
+</div>
+<div id="conclusion-3" class="section level2 hasAnchor" number="6.6">
+<h2><span class="header-section-number">6.6</span> Conclusion<a href="development-of-the-base-population.html#conclusion-3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>A direct comparison of the actual and derived results demonstrates nearly identical inbreeding coefficients. As such, support for the underlying theory behind changes of base population has been provided through simulation. As an interesting next step, one might re-develop the base population and calculate <em>F</em> through measures of gene frequency. Would the same results be achieved? Would the difference between the derived and actual measures of <em>F</em> be the same?</p>
+<div class="tabwid"><style>.cl-a8abbc30{}.cl-a8968860{font-family:'Arial';font-size:10pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-a89fa22e{margin:0;text-align:center;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-a89fde06{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a89fde1a{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a89fde24{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing='true' class='cl-a8abbc30'><thead><tr style="overflow-wrap:break-word;"><th class="cl-a89fde06"><p class="cl-a89fa22e"><span class="cl-a8968860">parameter</span></p></th><th class="cl-a89fde06"><p class="cl-a89fa22e"><span class="cl-a8968860">value</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-a89fde1a"><p class="cl-a89fa22e"><span class="cl-a8968860">F_XA_cob</span></p></td><td class="cl-a89fde1a"><p class="cl-a89fa22e"><span class="cl-a8968860">0.9481749</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-a89fde24"><p class="cl-a89fa22e"><span class="cl-a8968860">F_XA_actual</span></p></td><td class="cl-a89fde24"><p class="cl-a89fa22e"><span class="cl-a8968860">0.9476080</span></p></td></tr></tbody></table></div>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="change-of-base.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/pura-acuicultura/quantitative_genetics/edit/main/05-change_of_base.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/pura-acuicultura/quantitative_genetics/blob/main/05-change_of_base.Rmd",
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
